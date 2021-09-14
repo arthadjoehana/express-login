@@ -17,12 +17,8 @@ export default function Login() {
 	};
   return (
     <div className="login">
-      <button className="logo"><i class="fas fa-circle"></i><span> TAKU</span></button>
       <form onSubmit={handleSubmit}>
         <div className="login-form">
-          <div className="login-title">
-            Connect with the Otaku community worldwide
-          </div>
           <div className="login-input">
             <input type="email" placeholder="Email" />
           </div>
@@ -31,11 +27,6 @@ export default function Login() {
           </div>
           <div className="login-button">
           <input type="submit" value="Sign in" />
-          </div>
-          <div className="login-socialmedia">
-            <button className="brand-logo"><i class="fab fa-google"></i></button>
-            <button className="brand-logo"><i class="fab fa-facebook"></i></button>
-            <button className="brand-logo"><i class="fab fa-twitter"></i></button>
           </div>
           <div className="login-text">
             Don't have an account ?
